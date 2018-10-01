@@ -3,7 +3,8 @@
     "scripts": {
       "postinstall": "lerna bootstrap",
       "next": "cd packages/test-next && yarn test",
-      "current": "cd packages/test-current && yarn test"
+      "current": "cd packages/test-current && yarn test",
+      "test": "CI=true yarn current && CI=true yarn next"
     },
     "devDependencies": {
       "lerna": "^3.4.0"
