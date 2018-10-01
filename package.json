@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "scripts": {
+      "postinstall": "lerna bootstrap",
+      "next": "cd packages/test-next && yarn test",
+      "current": "cd packages/test-current && yarn test"
+    },
+    "devDependencies": {
+      "lerna": "^3.4.0"
+    }
+  }
