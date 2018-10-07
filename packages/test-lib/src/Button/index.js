@@ -1,9 +1,8 @@
 import React from 'react';
+import MButton from '@material-ui/core/Button';
 
 const Button = () => {
-    return (
-      <button>Imported button</button>
-    );
+  return <MButton>Imported button</MButton>;
 };
 
 export default Button;
